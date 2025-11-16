@@ -1,10 +1,13 @@
 @media (max-width: 480px){
     #top{
         background-image: url("images/bg-pattern-top-mobile.svg");
+        display: flex;
+        flex-direction: row;
     }
     #bottom{
         background-image: url("images/bg-pattern-bottom-mobile.svg");
     }
+    
 }
 @media (max-width: 2000px){
     #top{

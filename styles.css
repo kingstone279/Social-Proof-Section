@@ -11,6 +11,12 @@
         display: flex;
         flex-direction: column;
     }
+    #bottom{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+    }
     .review1{
        background: hsl(300, 24%, 96%);
        display: flex;
@@ -54,20 +60,9 @@
        border-radius:10px ;
        width: 300px;
        color: white;
+       margin-bottom: 20px;
     }
     
-    #Buyer_1{
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-    #Buyer_2{
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    #Buyer_3{
-        margin-top: 50px;
-        margin-bottom: 0px;
-    }
     .Identity h4{
         color: hsl(333, 80%, 67%);
     }

@@ -1,0 +1,120 @@
+@media (max-width: 480px){
+    #top{
+        background-image: url("images/bg-pattern-top-mobile.svg");
+    }
+    #bottom{
+        background-image: url("images/bg-pattern-bottom-mobile.svg");
+    }
+}
+@media (max-width: 2000px){
+    #top{
+        background-image: url("images/bg-pattern-top-desktop.svg");
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 75px;
+    }
+    #bottom{
+        background-image: url("images/bg-pattern-bottom-desktop.svg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .review1{
+       background: hsl(300, 24%, 96%);
+       margin-right: 75px;
+       margin-left: 0;
+       display: flex;
+       margin-bottom: 5px;
+       border-radius: 5px;
+    }
+    .review2{
+        background: hsl(300, 24%, 96%);
+        margin-right: 30px;
+        margin-left: 30px;
+        display: flex;
+        margin-bottom: 5px;
+        border-radius: 5px;
+       
+    }
+    .review3{
+        background: hsl(300, 24%, 96%);
+        margin-left: 75px;
+        margin-right: 0;
+        display: flex;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        
+    }
+    .stars{
+        padding: 14px;
+    }
+    h1{
+        color:  hsl(300, 43%, 22%);
+        font-weight: 700;
+    }
+    .Identity{
+        display: flex;
+    }
+    .Identity img{
+        border-radius: 50%;
+    }
+    #Buyer_1, #Buyer_2, #Buyer_3{
+       background: hsl(300, 43%, 22%);
+       padding: 20px;
+       margin-right: 10px;
+       border-radius:10px ;
+       width: 300px;
+       color: white;
+    }
+    
+    #Buyer_1{
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    #Buyer_2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #Buyer_3{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .Identity h4{
+        color: hsl(333, 80%, 67%);
+    }
+    .Identity img{
+        margin-right: 15px;
+    }
+    .det h3,
+    .det h4 {
+        margin: 0;
+        line-height: 1.2; /* slightly compact but still readable */
+    }     
+    .det{
+        margin-top: 10px;
+    } 
+}
+
+.league-spartan-700 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.league-spartan-500 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.league-spartan-400 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
